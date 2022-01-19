@@ -1,4 +1,4 @@
-#c++ 
+# c++ 
 #####  c++ da matnni ekranga chiqaruvchi dastur bilan tanishib chiqamiz! 
 ![alt text](carbon(1).png)
 
