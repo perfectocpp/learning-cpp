@@ -16,4 +16,6 @@ int main() {
     cout << "x = " << -b << "/" << a << endl;
     cout << "x = " << (float)-b / (float)a << endl;
 
+    return 0;
+
 }
