@@ -2,6 +2,17 @@
 
 using namespace std;
 
+int max(int n, int array[]) {
+    int max = array[0];
+
+    for (int i = 0; i < n; i++) {
+        if (max < array[i]) {
+            max = array[i];
+        }
+    }
+    return max;
+}
+
 int main(){
     int m, n, matrix[10][10];
 
@@ -19,16 +30,8 @@ int main(){
         }
     }
 
-    for (int i = 0; i < m; i ++) {
+    for (int i = 0; i < m; i++) {
 
-        for (int j = 0; j < n; j++) {
-
-            cout << matrix[i][j] << "\t";
-        }
-        cout << endl;
+        cout << i << " satrdagi max = " << max(n, &matrix[i][0]) << endl;
     }
-
-    system("pause");
-
-    return 0;
 }
