@@ -13,20 +13,26 @@ int main() {
 
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
+            cout << "[" << i << "][" << j << "] = ";
             cin >> ptr[i][j];
         }
     }
 
+    printf("\n");
+
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
-            cout << ptr[i][j] << "  " << endl;
+            cout << ptr[i][j] << "  ";
         }
+
+        cout << endl;
     }
 
     for (int i = 0; i < m; i++) {
+
         delete []ptr[i];
-        for (int j = 0; j < n; j++) {
-            delete ptr[i];
-        }
     }
+    delete []ptr;
+
+    return 0;
 }

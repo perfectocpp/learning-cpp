@@ -1,9 +1,15 @@
 #include <iostream>
 
+
 using namespace std;
 
 int main() {
-    char sym[] = "adfdfsfsfdsfsfsfsfsdfsdf";
 
-    cout << sym << endl;
+    for (char alp = 'a'; alp <= 'z'; alp++) {
+        cout << alp << ", ";
+    }
+
+    cout << "\n";
+
+    return 0;
 }
