@@ -5,6 +5,7 @@
         "*.tcc": "cpp",
         "string": "cpp",
         "regex": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "pqxx": "cpp"
     }
 }
